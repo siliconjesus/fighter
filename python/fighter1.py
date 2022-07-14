@@ -12,8 +12,8 @@ while(p1>0) and (p2>0):
    attack=random.randint(1, 7)
    print('Attack: ', attack)
    p1-=attack
+   print('Player1: ', p1)
    attack=random.randint(1, 7)
    p2-=attack
    print('Attack: ', attack)
-   print('Player1: ', p1)
    print('Player2: ', p2)
