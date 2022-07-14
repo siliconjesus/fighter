@@ -22,6 +22,7 @@ Future languages:
 - perl
 - php
 - go (golang)
+- javascript
 
 Future enhancements:
 - linting each language as its committed before allowing it to be deployed into the main branch
