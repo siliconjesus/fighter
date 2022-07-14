@@ -22,3 +22,8 @@ Future languages:
 - perl
 - php
 - go (golang)
+
+Future enhancements:
+- linting each language as its committed before allowing it to be deployed into the main branch
+- containerization of each language
+- better interfaces for the languages that can handle it (html / graphics / etc)
