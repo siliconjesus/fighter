@@ -8,7 +8,7 @@ int main (void) {
     int fighter1 = 60;
     int fighter2 = 60;
     int dmg = 0;
-    srand(time(NULL));
+    srand(time(NULL)); // Seed rand
 
     while(fighter1 > 0 and fighter2 > 0) {// The fighter is still alive
         dmg = rand() % 6 + 1;
