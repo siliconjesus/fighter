@@ -9,7 +9,7 @@ class Fighter {
         int hitpoints;
         char player_name[32]; // TODO make this a linked list instead
     public:
-        Fighter() {
+        Fighter() { // This is the constructor - it runs the when the object is created from this class
             hitpoints = 60;
         }
         int attack (void) {
@@ -49,7 +49,7 @@ int main (void) {
     Bob.set_name();
     Alice.set_name();
 
-    while (Bob.get_hp() > 0 and Alice.get_hp() > 0) {
+    while (Bob.get_hp() > 0 and Alice.get_hp() > 0) { // potentially change to looking for the '5' return code.  TBD
         int coin = coinflip();
         if (coin == 1) {
             Bob.attack();
