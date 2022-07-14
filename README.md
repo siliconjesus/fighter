@@ -27,3 +27,5 @@ Future enhancements:
 - linting each language as its committed before allowing it to be deployed into the main branch
 - containerization of each language
 - better interfaces for the languages that can handle it (html / graphics / etc)
+
+Shout out to @mikemol and the rosetta code project!
