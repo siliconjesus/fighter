@@ -9,7 +9,7 @@ def attack(player, playername):
    print('Attack incoming for ', attack, 'damage!')
    player-=attack
    if player < 0:
-      print('Oh no!  ', playername, 'has been knocked out!')
+      print('Oh no!  ', playername, ' has been knocked out!')
    else:
       print(playername, ' has ', player, ' HP remaining!')
    return(player)
