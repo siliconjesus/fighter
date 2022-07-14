@@ -4,3 +4,5 @@ cpp/bin
 .vscode/settings.json
 .vscode/targets.log
 .DS_Store
+cpp/fighter2.dSYM/Contents/Resources/DWARF/fighter2
+cpp/fighter2.dSYM/Contents/Info.plist
