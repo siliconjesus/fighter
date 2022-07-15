@@ -1,4 +1,4 @@
-cpp/bin
+bin/
 .vscode/configurationCache.log
 .vscode/dryrun.log
 .vscode/settings.json
